@@ -106,7 +106,7 @@ def analyze_tone(message):
         return "😢"
     return None
 
-def main_loop(delay_seconds=120):
+def main_loop(delay_seconds=120): # 120 sec interval between generated outputs
     while True:
         threads = load_threads()
         if threads and (random.random() < 0.95):  # 95% chance to reply to existing thread
