@@ -106,7 +106,7 @@ def analyze_tone(message):
         return "😢"
     return None
 
-def main_loop(delay_seconds=30000000000):
+def main_loop(delay_seconds=120):
     while True:
         threads = load_threads()
         if threads and (random.random() < 0.95):  # 95% chance to reply to existing thread
