@@ -1,4 +1,4 @@
-**Mirrorfest: An Experiment in Emergent AI Communication**
+# **Mirrorfest: An Experiment in Novel AI Communication**
 
 **Overview**
 
